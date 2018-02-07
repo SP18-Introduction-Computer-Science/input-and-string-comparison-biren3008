@@ -7,7 +7,6 @@ b = []
 
 for i in range(0,1) :
     a.append((string.readline()))
-    a[i] = a[i].replace('\n','')
     b.append((string.readline()))
 
 for odd in range(0,1) :
