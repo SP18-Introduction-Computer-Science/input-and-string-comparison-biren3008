@@ -1,6 +1,6 @@
 # Input and comparisons Biren 3008
 
-string = open("C:\\Users\\dc\\Anaconda3\\strings.txt","r")
+string = open("strings.txt","r")
 
 a = []
 b = []
