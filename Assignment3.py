@@ -1,18 +1,25 @@
 # Input and comparisons Biren 3008
 
-string = open("strings.txt","r")
+string = open("string.txt","r")
 
-a = []
-b = []
+odd_even = input(str("What type of lines you want to print Odd Or Even? : "))
 
-for i in range(0,1) :
-    a.append((string.readline()))
-    b.append((string.readline()))
+count = 0
+for line in string.readlines() :
+    
+    if odd_even == "Even":
+        
+        if count % 2 == 0:
+            print("Even index %d line from string file is :" %count)
+            print(line)
+        count += 1
+    
+    if odd_even == "Odd":
+        
+        if count % 2 == 1:
+            print("Odd index %d line from string file is :" %count)
+            print(line)
+        count += 1
+   
 
-for odd in range(0,1) :
-    print("Odd number list from string file :")
-    print ((a[odd]))
-
-for even in range(0,1) :
-    print("Even number list from string file :")
-    print ((b[even]))
+        
