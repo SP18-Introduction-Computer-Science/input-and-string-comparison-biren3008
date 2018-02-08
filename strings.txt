@@ -1,2 +1,6 @@
-a = [1,3,5]
-b = [2,4,6]
+Hello
+Goodbye
+Farewell
+Adios
+Buenos
+Noches
